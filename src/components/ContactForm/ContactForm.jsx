@@ -5,7 +5,6 @@ import { Form, Label, Input, Button} from './ContactForm.styled';
 
 export class ContactForm extends React.Component {
     state = {
-        contacts: [],
         name: '',
         number: ''
     };
